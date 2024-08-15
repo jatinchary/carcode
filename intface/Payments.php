@@ -1,5 +1,5 @@
 <?php
-namespace interface;
+namespace CarCode\Intface;
 interface Payments {
     public function fullPayment();
     public function downPaymentWithFinance();

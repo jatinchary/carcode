@@ -1,6 +1,6 @@
 <?php
 
-namespace abstractclasses;
+namespace CarCode\AbstractClasses;
 
 abstract class BrandTemplate {
     protected string $brandName;

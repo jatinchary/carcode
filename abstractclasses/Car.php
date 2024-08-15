@@ -1,8 +1,13 @@
 <?php
 
-namespace abstractclasses;
-use interface\Payments;
-use carcode\Brand;
+// namespace abstractclasses;
+// use intface\Payments;
+// use carcode\Brand;
+
+namespace CarCode\AbstractClasses;
+
+use CarCode\Intface\Payments;
+use CarCode\Brand;
 
 
 

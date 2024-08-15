@@ -1,8 +1,8 @@
 <?php
 
-namespace cartypes;
+namespace CarCode\Cartypes;
 
-use abstractclasses\Car;
+use CarCode\AbstractClasses\Car;
 
 class Sports extends Car {
     public function createCar() {

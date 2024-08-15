@@ -1,6 +1,10 @@
 <?php
-namespace carcode;
-use abstractclasses\BrandTemplate;
+
+
+namespace CarCode;
+
+use CarCode\AbstractClasses\BrandTemplate;
+
 class Brand extends BrandTemplate {
     
 }

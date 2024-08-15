@@ -1,28 +1,7 @@
 <?php
 
-// // // require_once 'BrandTemplate.php';
-
-
-// // require_once 'Brand.php';
-
-// // // require_once 'HatchBack.php';
-// // // require_once 'Car.php';
-// // // use branddetails;
-
-// // //  use branddetails\Brand;
-
-// use brandz\Brand;
-// use hatckback\HatchBack;
-// include ('./abstractclasses/BrandTemplate.php');
-// include ('./Brand.php');
-// include ('./cartypes/HatchBack.php');
-// include('./abstractclasses/Car.php');
-namespace carcode;
-use abstractclasses\Car;
-use abstractclasses\BrandTemplate;
-require_once 'Brand.php';
-use cartypes\HatchBack;
-
+use CarCode\Brand;
+use CarCode\Cartypes\HatchBack;
 
 
 $bmw = new Brand(
